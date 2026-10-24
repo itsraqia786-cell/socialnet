@@ -1,0 +1,12 @@
+{
+  "name": "socialnet",
+  "version": "1.0.0",
+  "description": "Full-featured social network with real-time updates (zero npm dependencies)",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings test/e2e.js"
+  },
+  "license": "MIT"
+}
